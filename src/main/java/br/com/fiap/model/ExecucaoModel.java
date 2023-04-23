@@ -45,7 +45,7 @@ public class ExecucaoModel {
 	}
 	
 	@Column(name = "DATA_EXECUCAO")
-	@NotNull(message = "Data e hora obrigatória")
+	@NotNull(message = "Data e hora obrigatoria")
 	public String getData_execucao() {
 		return data_execucao;
 	}
