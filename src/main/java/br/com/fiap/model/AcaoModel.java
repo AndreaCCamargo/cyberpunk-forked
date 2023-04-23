@@ -50,7 +50,7 @@ public class AcaoModel {
 	}
 	
 	@Column(name = "NOME")
-	@NotNull(message = "Nome obrigatório")
+	@NotNull(message = "Nome obrigatorio")
 	@Size(min = 2, max = 40, message = "NOME deve ser entre 2 e 40 caracteres")
 	public String getNome() {
 		return nome;
@@ -62,7 +62,7 @@ public class AcaoModel {
 	
 	
 	@Column(name = "DESCRICAO")
-	@NotNull(message = "Descricao obrigatória")
+	@NotNull(message = "Descricao obrigatï¿½ria")
 	@Size(min = 2, max = 100, message = "DESCRICAO deve ser entre 2 e 100 caracteres")
 	public String getDescricao() {
 		return descricao;
@@ -73,7 +73,7 @@ public class AcaoModel {
 	}
 	
 	@Column(name = "ATIVO")
-	@NotNull(message = "Ativo obrigatório")
+	@NotNull(message = "Ativo obrigatï¿½rio")
 	public boolean isAtivo() {
 		return ativo;
 	}
