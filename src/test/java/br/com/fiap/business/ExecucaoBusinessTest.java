@@ -1,10 +1,9 @@
 package br.com.fiap.business;
 
-import static org.junit.Assert.assertEquals;
-
-import java.math.BigDecimal;
-import java.util.Optional;
-
+import br.com.fiap.exception.ResponseBusinessException;
+import br.com.fiap.model.AcaoModel;
+import br.com.fiap.model.ExecucaoModel;
+import br.com.fiap.repository.AcaoRepository;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.InjectMocks;
@@ -13,10 +12,9 @@ import org.mockito.Mockito;
 import org.mockito.MockitoAnnotations;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import br.com.fiap.exception.ResponseBusinessException;
-import br.com.fiap.model.AcaoModel;
-import br.com.fiap.model.ExecucaoModel;
-import br.com.fiap.repository.AcaoRepository;
+import java.util.Optional;
+
+import static org.junit.Assert.assertEquals;
 
 @SpringBootTest
 public class ExecucaoBusinessTest {

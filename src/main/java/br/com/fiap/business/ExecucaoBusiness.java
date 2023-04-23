@@ -1,14 +1,12 @@
 package br.com.fiap.business;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
-import org.springframework.stereotype.Component;
-
 import br.com.fiap.exception.ResponseBusinessException;
 import br.com.fiap.model.AcaoModel;
 import br.com.fiap.model.ExecucaoModel;
 import br.com.fiap.repository.AcaoRepository;
-import br.com.fiap.repository.ExecucaoRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
 
 @Component
 public class ExecucaoBusiness {
